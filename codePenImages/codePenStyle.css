@@ -1,0 +1,179 @@
+/* Navigation Bar */
+
+#logo img {
+    width: 280px;
+    height: 50px;
+    margin-left: 10px;
+}
+#navBar {
+    background-color: black;
+    margin: -8px -8px 0px -8px;
+    height: 115px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 3fr;
+}
+#explore {
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+#leftColumn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 830px;
+}
+#pensProjectsEtc {
+    word-spacing: 15px;
+    font-size: 25px;
+    font-weight: 900;
+}
+#exploreText {
+    margin-bottom: -15px;
+    font-size: 20px;
+    color: #FFFF8F;
+    font-weight: 200;
+}
+#spark {
+    font-size: 23px;
+    margin-left: 30px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+#chevronDown {
+    font-size: 23px;
+    margin-left: 30px;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-left: 15px;
+}
+#rightColumn {
+    display: flex;
+    align-items: center;
+}
+#rightColumn > #navButtons {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 25px;
+}
+.btn {
+    border: none;
+    border-radius: 3px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(67, 67, 75);
+    padding: 0px 20px;
+}
+#greenChevron {
+    color: rgb(99, 218, 99);
+    font-size: 25px;
+}
+.fa-magnifying-glass {
+    color: rgb(67, 67, 75);
+    font-size: 50px;
+}
+
+/* Page Content */
+
+#pageContent {
+    background-color: rgb(67, 67, 75);
+    width: 100%;
+    height: 700px;
+    margin: 0px 0px 0px -8px;
+    position: absolute;
+    right: 0px;
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    box-shadow: inset -31px -34px 50px 49px rgba(0,0,0,0.13);
+}
+#leftText {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#leftSide {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#leftTopText {
+    font-size: 35px;
+}
+.bold {
+    font-weight: 900;
+    font-family: 'Mukta', sans-serif;
+    font-size: 40px;
+}
+#leftBottomText {
+    opacity: 0.6;
+}
+#signUpForFreeBTN {
+    background-color:rgb(99, 218, 99);
+    color: black;
+    font-size: 30px;
+}
+#learnMoreBTN {
+    background-color: black;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#leftButtons {
+    padding-top: 15px;
+}
+#rightSide {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 200px;
+    margin-bottom: -50px;
+}
+#rightText {
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-size: 12px;
+}
+.blueText {
+    color: rgb(111, 200, 252);
+}
+#wavingHand {
+    width: 40px;
+    margin-left: 20px;
+}
+#rightImage img {
+    width: 700px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: rgb(36, 36, 36);
+    position: relative;
+    top: 700px;
+    width: 100%;
+    padding: 8px;
+    margin-left: -8px;
+    height: 250px;
+}
+#footerColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.column {
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    background-color:rgb(78, 78, 87);
+    margin: -8px;
+    border: 2px solid rgb(100, 100, 110);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.bigText {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
